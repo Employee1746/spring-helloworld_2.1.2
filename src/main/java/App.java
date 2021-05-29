@@ -17,7 +17,7 @@ public class App {
         beanCat1.setName("Sam");
         System.out.println(beanCat.getName());
         System.out.println(beanCat1.getName());
-        System.out.println(bean == bean1);
-        System.out.println(beanCat == beanCat1);
+        System.out.println(bean.equals(bean1));
+        System.out.println(beanCat.equals(beanCat1));
     }
 }
